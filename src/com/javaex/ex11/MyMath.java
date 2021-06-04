@@ -3,11 +3,11 @@ package com.javaex.ex11;
 public class MyMath {
 
 	//필드
-	
-	
+	private static double pi = 3.14;
+	private int num;
 	//생성자
 	
-	
+
 	//메소드 g/s
 	
 	
@@ -33,6 +33,10 @@ public class MyMath {
 		return result;
 	}
 	
+	public static double CircleArea(int radius) {
+		double result = radius * radius * pi;
+		return result;
+	}
 	
 	
 }

@@ -20,6 +20,8 @@ public class MyMathApp {
 		System.out.println(MyMath.plus(10.4, 99));
 		
 		
+		System.out.println(MyMath.CircleArea(5));
+		
 		/*
 		 MyMath myMath = new myMath();    // 이렇게 쓸 이유가 없음 -> 메모리 낭비 
 		 System.out.println(MyMath.plus(100, 100)); 
