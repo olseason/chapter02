@@ -3,7 +3,7 @@ package com.javaex.ex08;
 public class Tv {
 
 	
-	//필드
+		//필드
 		private int channel;
 		private int volume;
 		private boolean power;
