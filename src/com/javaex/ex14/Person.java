@@ -18,7 +18,7 @@ public class Person {
 		System.out.println("Person(2)");
 	}
 
-	//메소드-gs
+	//메소드 g/s
 	public String getName() {
 		return name;
 	}
