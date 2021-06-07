@@ -2,12 +2,12 @@ package com.javaex.ex14;
 
 public class Person {
 
-	//필드
+	///필드
 	private String name;
 	private int age;
 	
 
-	//생성자
+	///생성자
 	public Person() {
 		System.out.println("Person()");
 	}
@@ -18,7 +18,7 @@ public class Person {
 		System.out.println("Person(2)");
 	}
 
-	//메소드 g/s
+	///메소드 g/s
 	public String getName() {
 		return name;
 	}
