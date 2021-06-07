@@ -1,4 +1,4 @@
-package cpm.javaex.ex14;
+package com.javaex.ex14;
 
 public class Student extends Person {
 
