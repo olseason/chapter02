@@ -4,7 +4,8 @@ public class MyMath {
 
 	//필드
 	private static double pi = 3.14;
-	private int num;
+	
+	
 	//생성자
 	
 
@@ -18,7 +19,7 @@ public class MyMath {
 		return result;
 	}
 	
-	public static double plusDouble(double a, double b) {
+	public static double plusDouble(double a, int b) {
 		double result = a + b;
 		return result;
 	}
@@ -28,7 +29,7 @@ public class MyMath {
 		return result;
 	}
 	
-	public static double plus(double a, int b) {
+	public static double plus(double a, double b) {
 		double result = a + b;
 		return result;
 	}
