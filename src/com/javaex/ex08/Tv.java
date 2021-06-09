@@ -13,21 +13,21 @@ public class Tv {
 		}
 		
 		public Tv(int channel, int volume, boolean power) {
-			this.channel = channel;
-			this.volume = volume;
-			this.power = power;
+			this.channel = channel; 
+			this.volume = volume; 
+			this.power = power; 
 		}
 
 		//메소드 게터/세터
 		public int getChannel() {
 			return channel;
-		}
+		}    
 
 		public int getVolume() {
 			return volume;
 		}
 
-		public boolean isPower() {
+		public boolean getPower() {
 			return power;
 		}
 		
@@ -82,8 +82,8 @@ public class Tv {
 			}else {
 				System.out.println("TV 전원 OFF");
 			}
-			System.out.println("TV 볼륨: "+volume);
-			System.out.println("TV 채널: "+channel+"번");
+			System.out.println("TV 볼륨: " + volume);
+			System.out.println("TV 채널: " + channel + "번");
 			System.out.println("");
 		}
 	
